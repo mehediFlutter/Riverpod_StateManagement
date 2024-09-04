@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_state_management/screen/home_screen.dart';
 
 void main() {
-  runApp(CounterApp());
+  runApp( const ProviderScope(child: CounterApp()));
   
 }
 class CounterApp extends StatelessWidget {
@@ -10,7 +11,7 @@ class CounterApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );

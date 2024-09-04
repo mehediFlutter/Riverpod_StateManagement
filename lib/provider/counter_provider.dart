@@ -13,6 +13,9 @@ class Counter extends _$Counter{
  int build() => 0;
 
  void increment () => state++;
+ void decrement() {
+  state--;
+ }
   
 }
 @riverpod
