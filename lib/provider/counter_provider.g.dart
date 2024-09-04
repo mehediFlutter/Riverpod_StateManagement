@@ -20,7 +20,7 @@ final myListProvider = AutoDisposeProvider<List>.internal(
 );
 
 typedef MyListRef = AutoDisposeProviderRef<List>;
-String _$counterHash() => r'4243b34530f53accfd9014a9f0e316fe304ada3e';
+String _$counterHash() => r'5db6a8958ec5e3318116167608c91d6c3d221b4e';
 
 /// See also [Counter].
 @ProviderFor(Counter)
